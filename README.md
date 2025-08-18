@@ -1,16 +1,37 @@
 # inswapper-512-live
 
-This project contains information about the inswapper-512-live model and the application releases based on it. The first released application is a real-time face anonymization tool for macOS, which allows users to swap their face in the camera with a predefined template character in real time.
+This project contains information about the inswapper-512-live model and the application releases based on it. 
+
+## Update Logs
+
+**`2025-08-18`** Our [On-device Live Face Swap iOS App](https://www.Picsi.Ai/App) released based on inswapper-512-live models.
+
+**`2025-06-21`** Release v0.1.2 for macOS App. No major updates, v0.1.1 may no longer be valid.
+
+## Applications
+
+### 1. Picsi.Ai Live Face Swap iOS App
+
+<div align="left">
+  <img src="https://github.com/nttstar/insightface-resources/blob/master/images/ios_app_bar.gif?raw=true" width="800"/>
+</div>
+
+Based on the inswapper_512_live model, this iOS app provides on-device, real-time face swapping functionalities, including live camera face swapping and video face swapping with a real-time preview.
+
+To download the App, visit [https://www.Picsi.Ai/App](https://www.Picsi.Ai/App)
+
+To check the user guide, visit [https://www.picsi.ai/ios-docs](https://www.picsi.ai/ios-docs)
+
+### 2. Real-time face anonymization tool for macOS
 
 <div align="left">
   <img src="https://github.com/nttstar/insightface-resources/blob/master/images/inswapper_512_live_preview1.gif?raw=true" width="1024"/>
 </div>
 
-## Update Logs
+This tool can be downloaded directly from this GitHub repository, which allows users to swap their face in the camera with a predefined template character in real time.
 
-**2025.06.21** : Release v0.1.2. No major updates, v0.1.1 may no longer be valid.
 
-## How To Use
+#### How To Use
 
 System requirements: Apple Silicon Macs(M series) and macOS >= 13.5.
 
@@ -18,18 +39,11 @@ System requirements: Apple Silicon Macs(M series) and macOS >= 13.5.
 2. Since the application has not yet passed Apple's notarization process (due to the new developer account and no previously released AppStore apps), users need to manually modify privacy settings to allow the application to execute correctly;
 3. Visit the [Picsi.Ai profile](https://www.picsi.ai/profile) page and log in with your Discord account to obtain a UToken, enter it into the application's login box, and it may take 2-3 seconds to complete the login. The login process requires an internet connection.
 
-## Performance Tips
+#### Performance Tips
 
 1. The application is optimized for 30 FPS, but actual frame rates may vary based on camera hardware (some external cameras, such as Studio Display, may drop to 25 FPS). But using an external camera generally results in more stable model inference times;
 2. There is still significant room for improvement in pre-processing and post-processing steps, such as the real-time performance and stability of face tracking, as well as the strategy for pasting back the results;
 3. The output of the time cost statistics may be inaccurate.
-
-## Security & Compliance Considerations
-
-1. The inswapper-512-live model itself is not included in this release and is only available under strict licensing agreements;
-2. This application is not designed for real-time arbitrary identity modification but rather for face anonymization and controlled demonstrations;
-3. All source faces are pre-selected templates, ensuring no open-ended face-swapping functionality is available in this release.
-
 
 
 ## Model Introduction
