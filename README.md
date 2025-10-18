@@ -4,7 +4,7 @@ This project contains information about the inswapper-512-live model and the app
 
 ## Update Logs
 
-**`2025-08-18`** Our [On-device Live Face Swap iOS App](https://www.Picsi.Ai/App) released based on inswapper-512-live models.
+**`2025-08-18`** Our [On-device Live Face Swap iOS App](https://www.picsi.ai/app) released based on inswapper-512-live models.
 
 **`2025-06-21`** Release v0.1.2 for macOS App. No major updates, v0.1.1 may no longer be valid.
 
