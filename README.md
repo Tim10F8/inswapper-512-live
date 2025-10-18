@@ -18,7 +18,7 @@ This project contains information about the inswapper-512-live model and the app
 
 Based on the inswapper_512_live model, this iOS app provides on-device, real-time face swapping functionalities, including live camera face swapping and video face swapping with a real-time preview.
 
-To download the App, visit [https://www.Picsi.Ai/App](https://www.Picsi.Ai/App)
+To download the App, visit [https://www.picsi.ai/app](https://www.picsi.ai/app)
 
 To check the user guide, visit [https://www.picsi.ai/ios-docs](https://www.picsi.ai/ios-docs)
 
